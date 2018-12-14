@@ -1,6 +1,6 @@
 const constants = {}
 constants.organization = 'lukso-network'
-constants.repoName = 'lusko-chain-spec'
+constants.repoName = 'lukso-chain-spec'
 constants.addressesSourceFile = 'contracts.json'
 constants.ABIsSources = {
   KeysManager: 'KeysManager.abi.json',
