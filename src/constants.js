@@ -1,6 +1,6 @@
 const constants = {}
-constants.organization = 'poanetwork'
-constants.repoName = 'poa-chain-spec'
+constants.organization = 'lukso-network'
+constants.repoName = 'lusko-chain-spec'
 constants.addressesSourceFile = 'contracts.json'
 constants.ABIsSources = {
   KeysManager: 'KeysManager.abi.json',
@@ -11,29 +11,11 @@ constants.ABIsSources = {
 constants.userDeniedTransactionPattern = 'User denied transaction'
 
 constants.NETWORKS = {
-  '77': {
-    NAME: 'Sokol',
-    RPC: 'https://sokol.poa.network',
-    BRANCH: 'sokol',
+  '22': {
+    NAME: 'L14',
+    RPC: 'http://localhost:8545',
+    BRANCH: 'l14',
     TESTNET: true
-  },
-  '99': {
-    NAME: 'Core',
-    RPC: 'https://core.poa.network',
-    BRANCH: 'core',
-    TESTNET: false
-  },
-  '79': {
-    NAME: 'Dai-Test',
-    RPC: 'https://dai-test.poa.network',
-    BRANCH: 'dai-test',
-    TESTNET: true
-  },
-  '100': {
-    NAME: 'Dai',
-    RPC: 'https://dai.poa.network',
-    BRANCH: 'dai',
-    TESTNET: false
   }
 }
 
