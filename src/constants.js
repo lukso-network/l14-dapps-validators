@@ -13,7 +13,7 @@ constants.userDeniedTransactionPattern = 'User denied transaction'
 constants.NETWORKS = {
   '22': {
     NAME: 'L14',
-    RPC: 'http://localhost:8545',
+    RPC: 'http://35.189.66.64:8545',
     BRANCH: 'l14',
     TESTNET: true
   }
