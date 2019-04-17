@@ -76,12 +76,13 @@
     "deploy": "gh-pages -d build -o origin",
     "build-css": "node-sass-chokidar src/stylesheets/application.scss -o src/stylesheets --output-style=compressed",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "start-js": "node scripts/start.js",
-    "start": "npm-run-all -p watch-css start-js",
+    "start-js": "react-scripts start",
+    "start": "node scripts/start.js",
     "start-watch": "npm-run-all -p watch-css start-js",
-    "build-js": "node scripts/build.js",
+    "build-js": "react-scripts build",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
     "lint": "./node_modules/.bin/eslint src"
   },
   "eslintConfig": {
