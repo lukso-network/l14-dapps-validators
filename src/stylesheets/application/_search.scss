@@ -26,7 +26,7 @@
   border-radius: 0;
   border: none;
   box-sizing: border-box;
-  color: #fff;
+  color: $lukso-navy-blue;
   display: block;
   font-size: 14px;
   font-weight: 400;
@@ -39,5 +39,5 @@
     background-image: url('#{ $base-images-path }/icons/icon-search-sokol.svg');
   }
 
-  @include placeholder-full($color: rgba(255, 255, 255, 0.5));
+  @include placeholder-full($color: $lukso-navy-blue);
 }

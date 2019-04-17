@@ -66,24 +66,6 @@ class Validator extends Component {
               <ValidatorPhysicalAddresses physicalAddresses={physicalAddresses} />
             </div>
           </div>
-          <div className="validators-license right">
-            <p className="validators-title  validators-title--notary-license">Notary license</p>
-            <div className="validators-table">
-              <div className="validators-table-i">
-                <p>License ID</p>
-                <p>{licenseId}</p>
-              </div>
-              <div className="validators-table-i">
-                <p>License Expiration</p>
-                <p>{expirationDate}</p>
-              </div>
-              <div className="validators-table-i">
-                <p>Miner Creation Date</p>
-                <p>{createdDate}</p>
-              </div>
-              {pendingChangeDate}
-            </div>
-          </div>
         </div>
         <div className="validators-footer">{children}</div>
       </div>
