@@ -1,7 +1,7 @@
 import React from 'react'
 import Select from 'react-select'
 import logoBase from './images/logos/logo_validators_dapp@2x.png'
-import logoSokol from './images/logos/logo_sokol@2x.png'
+import logoSokol from './images/logos/Lukso_Wordmark_navy.png'
 import menuIconBase from './images/icons/icon-menu.svg'
 import menuIconSokol from './images/icons/icon-menu-sokol.svg'
 import menuOpenIconBase from './images/icons/icon-close.svg'
@@ -52,6 +52,7 @@ const Header = ({ netId, onChange, injectedWeb3, showMobileMenu, onMenuToggle, b
         <a className="header-logo-a" href={baseRootPath}>
           <img className="header-logo" src={logoImageName} alt="" />
         </a>
+        <span className="logo-title">Validators</span>
         <div className="links-container">
           <NavigationLinks navigationData={navigationData} />
         </div>

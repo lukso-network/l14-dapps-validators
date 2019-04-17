@@ -1,10 +1,9 @@
 import React from 'react'
-import moment from 'moment'
 import Socials from './Socials'
 import { constants } from './constants'
 
 const Footer = ({ netId }) => {
-  const footerClassName = netId in constants.NETWORKS && constants.NETWORKS[netId].TESTNET ? 'sokol' : ''
+  const footerClassName = netId in constants.NETWORKS && constants.NETWORKS[netId].TESTNET ? 'sokol' : 'sokol'
 
   return (
     <footer className={`footer ${footerClassName}`}>
@@ -12,7 +11,7 @@ const Footer = ({ netId }) => {
         <a href="/">
           <i className="footer-logo" />
         </a>
-        <p className="footer-rights">{moment().format('YYYY')} POA. All rights reserved.</p>
+        <p className="footer-rights">Built by POA. All rights reserved.</p>
         <Socials />
       </div>
     </footer>
