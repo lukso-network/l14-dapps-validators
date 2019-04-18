@@ -11,7 +11,12 @@ const Footer = ({ netId }) => {
         <a href="/">
           <i className="footer-logo" />
         </a>
-        <p className="footer-rights">Built by POA. All rights reserved.</p>
+        <p className="footer-rights">
+          Built by{' '}
+          <a target="_blank" href="https://poa.network">
+            POA Network
+          </a>. All rights reserved.
+        </p>
         <Socials />
       </div>
     </footer>
