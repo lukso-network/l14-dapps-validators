@@ -18,10 +18,10 @@ class Validator extends Component {
       address,
       firstName,
       lastName,
-      licenseId,
-      expirationDate,
-      createdDate,
-      updatedDate,
+      //licenseId,
+      //expirationDate,
+      //createdDate,
+      //updatedDate,
       index,
       children
     } = this.props
@@ -35,14 +35,14 @@ class Validator extends Component {
     )
 
     const indexAndAddress = showAllValidators ? `#${index}. ${address}` : address
-    const pendingChangeDate = !updatedDate ? (
+    /*const pendingChangeDate = !updatedDate ? (
       ''
     ) : (
       <div className="validators-table-i">
         <p>Pending Change Date</p>
         <p>{updatedDate}</p>
       </div>
-    )
+    )*/
 
     return (
       <div className="validators-i">
@@ -66,6 +66,26 @@ class Validator extends Component {
               <ValidatorPhysicalAddresses physicalAddresses={physicalAddresses} />
             </div>
           </div>
+          {/*
+            <div className="validators-license right">
+              <p className="validators-title  validators-title--notary-license">Notary license</p>
+              <div className="validators-table">
+                <div className="validators-table-i">
+                  <p>License ID</p>
+                  <p>{licenseId}</p>
+                </div>
+                <div className="validators-table-i">
+                  <p>License Expiration</p>
+                  <p>{expirationDate}</p>
+                </div>
+                <div className="validators-table-i">
+                  <p>Miner Creation Date</p>
+                  <p>{createdDate}</p>
+                </div>
+                {pendingChangeDate}
+              </div>
+            </div>
+          */}
         </div>
         <div className="validators-footer">{children}</div>
       </div>
