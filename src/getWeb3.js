@@ -35,9 +35,7 @@ let getWeb3 = () => {
 
         if (!(netId in constants.NETWORKS)) {
           netIdName = 'ERROR'
-          errorMsg = `You aren't connected to POA Network.
-              Please, switch to POA Network and refresh the page.
-              Check POA Network <a href='https://github.com/poanetwork/wiki' target='blank'>Wiki</a> for more info.`
+          errorMsg = `Make sure to connect to the LUKSO L14 testnet using a web3 Browser or MetaMask. The RPC endpoint is http://rpc.l14.lukso.network/:8545`
           console.log('This is an unknown network.')
         } else {
           netIdName = constants.NETWORKS[netId].NAME
