@@ -12,8 +12,8 @@ import { constants } from './constants'
 
 const Header = ({ netId, onChange, injectedWeb3, showMobileMenu, onMenuToggle, baseRootPath, navigationData }) => {
   const thisIsTestnet = netId in constants.NETWORKS && constants.NETWORKS[netId].TESTNET
-  const headerClassName = thisIsTestnet ? 'sokol' : ''
-  const logoImageName = thisIsTestnet ? logoSokol : logoBase
+  const headerClassName = thisIsTestnet ? 'sokol' : 'sokol'
+  const logoImageName = thisIsTestnet ? logoSokol : logoSokol
   const menuIcon = thisIsTestnet ? menuIconSokol : menuIconBase
   const menuOpenIcon = thisIsTestnet ? menuOpenIconSokol : menuOpenIconBase
 

@@ -224,9 +224,9 @@ class AppMainRouter extends Component {
   getNetIdClass() {
     const { netId } = this.state
     if (netId in constants.NETWORKS) {
-      return constants.NETWORKS[netId].TESTNET ? 'sokol' : ''
+      return constants.NETWORKS[netId].TESTNET ? 'sokol' : 'sokol'
     }
-    return ''
+    return 'sokol'
   }
   onSearch(term) {
     this.setState({ searchTerm: term.target.value.toLowerCase() })
