@@ -35,6 +35,10 @@
   padding-left: 30px;
   width: 100%;
 
+  @media screen and (max-width: $mobile-width) {
+    height: 40px;
+  }
+
   .sokol & {
     background-image: url('#{ $base-images-path }/icons/icon-search-sokol.svg');
   }
