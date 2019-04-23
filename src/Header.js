@@ -1,6 +1,5 @@
 import React from 'react'
 import Select from 'react-select'
-import logoBase from './images/logos/logo_validators_dapp@2x.png'
 import logoSokol from './images/logos/Lukso_Wordmark_navy.png'
 import menuIconBase from './images/icons/icon-menu.svg'
 import menuIconSokol from './images/icons/icon-menu-sokol.svg'
