@@ -15,7 +15,7 @@ let Socials = () => {
     {
       icon: 'socials-i_telegram',
       title: 'Telegram',
-      url: 'https://t.me/oraclesnetwork'
+      url: 'https://t.me/LUKSO'
     },
     {
       icon: 'socials-i_github',
