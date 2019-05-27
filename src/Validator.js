@@ -55,7 +55,7 @@ class Validator extends Component {
         </div>
         <div className="validators-body">
           <div className="validators-notary left">
-            <p className="validators-title validators-title--notary">Notary</p>
+            <p className="validators-title validators-title--notary">Validator</p>
             <div className="validators-table">
               <div className="validators-table-i">
                 <p>Full Name</p>
