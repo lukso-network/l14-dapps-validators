@@ -48,3 +48,11 @@ If you see **Finalize** button, then 2 confirmations are already submitted and y
 1) `npm i`
 
 2) `npm start`
+
+## gcloud
+
+```
+cd user/folder
+docker-compose ps (to checken)
+docker-compose up -d  (to restart)
+```
